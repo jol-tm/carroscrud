@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+body {
+    font-family: "Fira Code";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+button {
+    padding: .3rem;
+    background-color: greenyellow;
+    border: none;
+    border-radius: .3rem;
+}
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+form {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
